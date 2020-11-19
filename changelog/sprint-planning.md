@@ -1,7 +1,7 @@
 # Sprint Planning 
 | 18/11/2020
 
-### Team (3T)
+### Team 3T
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190019  | Devara Hifzhurrahman |
@@ -11,7 +11,7 @@
 ## Sprint Backlog Keseluruhan 
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Preparing the x | Jane Doe | 
+| 1.1 | Menentukan konsep dan GUI | All | 
 | 2.2 | Make the x | John Doe | 
 
 ## Sprint Backlog Plan (Sprint 1)
