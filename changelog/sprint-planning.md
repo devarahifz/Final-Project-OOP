@@ -4,9 +4,9 @@
 ### Team (Insert your name)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190019  | Devara Hifzhurrahman |
+| 140810190055  | Anki Prawira         |
+| 140810190067  | David Aditya Susanto |
 
 ## Sprint Backlog Keseluruhan 
 | ID  | Title/Desc | Asignee | 
