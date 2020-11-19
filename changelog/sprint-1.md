@@ -1,12 +1,12 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 18/11/2020 to 24/11/2020
 
 ## Team (Insert your name)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190019  | Devara Hifzhurrahman    |
+| 140810190055  | Anki Prawira    |
+| 140810190067  | David Aditya Susanto |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
