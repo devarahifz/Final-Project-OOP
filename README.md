@@ -14,9 +14,8 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 | 140810190067  | David Aditya Susanto |
 
 ## Change log
-- **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
-   - Short changes 2
+- **[Sprint Planning](changelog/sprint-planning.md) - (18/11/2020)** 
+   -  Diskusi awal, pengembangan kriteria tantangan, log perubahan rencana
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
    - Short changes 1
