@@ -17,15 +17,15 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 - **[Sprint Planning](changelog/sprint-planning.md) - (18/11/2020)** 
    -  Diskusi awal, pengembangan kriteria tantangan, log perubahan rencana
 
-- **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
+- **[Sprint 1](changelog/sprint-1.md) - (18/11/2020 - 24/11/2020)** 
    - Short changes 1
    - Short changes 2
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
+- **[Sprint 2](changelog/sprint-2.md) - (25/11/2020 - 01/12/2020)** 
    - Short changes 1
    - Short changes 2
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
+- **[Sprint 3](changelog/sprint-3.md) - (02/11/2020 - 08/11/2020)** 
    - Short changes 1
    - Short changes 2
 
