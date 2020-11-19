@@ -5,8 +5,8 @@
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190019  | Devara Hifzhurrahmana    |
-| 140810190055  | Anki Prawira    |
-| 140810190067  | David Aditya |
+| 140810190055  | Anki Prawira Hidayat   |
+| 140810190067  | David Aditya Susanto|
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
