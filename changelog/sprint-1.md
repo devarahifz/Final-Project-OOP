@@ -1,7 +1,7 @@
 # Scrum Report (Sprint 1)
 | From 18/11/2020 to 24/11/2020
 
-## Team (Insert your name)
+## Team 3T
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190019  | Devara Hifzhurrahman    |
