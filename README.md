@@ -6,7 +6,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 **Implementasi Java untuk membuat game TicTacToe. Game ini dimainkan oleh 2 orang yang masing-masing memilih simbol antara 'X' atau 'O', Pemain ditugaskan untuk menyejajarkan simbol mereka masing-masing secara horizontal, vertikal maupun diagonal. Pemain bergerak secara bergiliran dan yang lebih dahulu menyejajarkan simbol adalah pemenangnya.**
 
-## Credits
+## Tim 3T
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190019  | Devara Hifzhurrahman |
