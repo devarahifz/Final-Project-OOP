@@ -1,5 +1,5 @@
 # Sprint Planning 
-| dd/mm/yyyy
+| 18/11/2020
 
 ### Team (Insert your name)
 | NPM           | Name        |
