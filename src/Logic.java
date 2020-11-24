@@ -49,8 +49,7 @@ public class Logic extends JFrame implements ActionListener{
                     buttonArray[i][j].addActionListener(this);
                     buttonArray[i][j].setBounds(X, Y, 50, 50);
                     X += 60;
-                    // If 3 buttons are added
-                    // Increment Y to set buttons to next line
+                    // kalo udah ada 3 button button selanjutnya bakal ada di bawah
                     if (j == 3 - 1) {
                             Y += 60;
                             X = 10;
