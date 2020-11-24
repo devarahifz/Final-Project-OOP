@@ -9,20 +9,25 @@
 | 140810190067  | David Aditya Susanto |
 
 ## Sprint Overview
-| Planned (n)   | Completed (n) |
+| Planned | Completed |
 | ------------- |-------------- |
-| n             | n             |
+| 7             | 6             |
 
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| 1.1 | Menentukan konsep dan GUI | All | Done | 
+| 1.2 | Membuat Menu Utama | Anki | Failed |
+| 1.3 | Membuat Game Board 3x3 | Devara | Done |
+| 1.4 | Konfigurasi Simbol| David | Done |
+| 1.5 | Membuat Logika Giliran | Anki | Done |
+| 1.6 | Membuat Logika Kontrol User | Anki | Done |
+| 1.7 | Membuat Logika Menang Jika Sejajar | Devara | Done |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Kami belum menemukan urgensi dari adanya menu utama
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
