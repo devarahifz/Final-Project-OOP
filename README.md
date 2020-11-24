@@ -38,11 +38,11 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 2. Buka Folder Src dan jalankan terminal seperti digambar <br>
      ![picture alt](https://mega.nz/file/hHw2nSBB#MysaOvmi1617kludz1M72LuZeWaXsVoHZ-1whE7fQss "Terminal Program Java TicTacToe")
      
-3. Berikut ini hasilnya
-     ![picture alt](https://drive.google.com/file/d/1J103SOnOZ6vnQm4C-3YSdaxfLeJsCW5A/view?usp=sharing "Tampilan Awal")
-     ![picture alt](https://drive.google.com/file/d/16faDR_SgVU5JB6JN8KaMxPJYzAmcMo4i/view?usp=sharing "Tampilan Proses")
-     ![picture alt](https://drive.google.com/file/d/1nTcwUXNAAwP15BYFntCZT5zoEfL49r_l/view?usp=sharing "Tampilan Player 1 Menang")
-     ![picture alt](https://drive.google.com/file/d/16T5r7eE2XQo4-EOTSudwPrY3661w5jgJ/view?usp=sharing "Terminal Player 2 Menang")
+3. Berikut ini hasilnya <br>
+     ![picture alt](https://drive.google.com/file/d/1J103SOnOZ6vnQm4C-3YSdaxfLeJsCW5A/view?usp=sharing "Tampilan Awal") <br>
+     ![picture alt](https://drive.google.com/file/d/16faDR_SgVU5JB6JN8KaMxPJYzAmcMo4i/view?usp=sharing "Tampilan Proses") <br>
+     ![picture alt](https://drive.google.com/file/d/1nTcwUXNAAwP15BYFntCZT5zoEfL49r_l/view?usp=sharing "Tampilan Player 1 Menang") <br>
+     ![picture alt](https://drive.google.com/file/d/16T5r7eE2XQo4-EOTSudwPrY3661w5jgJ/view?usp=sharing "Terminal Player 2 Menang") <br>
    
 
 ## Classes Used
