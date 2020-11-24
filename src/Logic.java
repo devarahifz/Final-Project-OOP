@@ -65,7 +65,7 @@ public class Logic extends JFrame implements ActionListener{
             add(playerLabel);
             add(panel);
     }
-    // This method handles click events of buttons
+    
     @Override
     public void actionPerformed(ActionEvent e){
         //kalo game blm selesai
