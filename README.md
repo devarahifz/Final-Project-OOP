@@ -35,7 +35,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 1. Install Terlebih Dahulu JDK beserta extension-nya di vscode
 
-2. Buka Folder Src dan jalankan terminal seperti digambar
+2. Buka Folder Src dan jalankan terminal seperti digambar <br>
      ![picture alt](https://mega.nz/file/hHw2nSBB#MysaOvmi1617kludz1M72LuZeWaXsVoHZ-1whE7fQss "Terminal Program Java TicTacToe")
      
 3. Berikut ini hasilnya
