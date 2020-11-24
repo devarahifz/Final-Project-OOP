@@ -36,14 +36,14 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 1. Install Terlebih Dahulu JDK beserta extension-nya di vscode
 
 2. Buka Folder Src dan jalankan terminal seperti digambar <br>
-     ![Code Untuk Run Aplikasi](https://imgur.com/x14G6jm "Terminal Program Java TicTacToe")
+     ![Code Untuk Running App](https://user-images.githubusercontent.com/61828857/100114874-76f1bb80-2ea4-11eb-96d2-f5d25b372a42.png)
      
 3. Berikut ini hasilnya <br>
-     ![Awalan](https://imgur.com/QFVg5Av "Tampilan Awal") <br>
-     ![Proses](https://imgur.com/lnMoCSr "Tampilan Proses") <br>
-     ![Hasil 1](https://imgur.com/tl70YSW "Tampilan Player 1 Menang") <br>
-     ![Hasil 2](https://imgur.com/ObPQiX5 "Terminal Player 2 Menang") 
-   
+     ![Awalan](https://user-images.githubusercontent.com/61828857/100114954-8bce4f00-2ea4-11eb-9ded-92221a9cbb91.png) <br>
+     ![Proses](https://user-images.githubusercontent.com/61828857/100115078-ae606800-2ea4-11eb-9780-83b60d0cf123.png) <br>
+     ![Hasil 1](https://user-images.githubusercontent.com/61828857/100115166-c637ec00-2ea4-11eb-9061-b056158f6c08.png) <br>
+     ![Hasil 2](https://user-images.githubusercontent.com/61828857/100115247-dc45ac80-2ea4-11eb-8248-2ceb787cd459.png) <br>
+     ![Hasil 3](https://user-images.githubusercontent.com/61828857/100115550-3cd4e980-2ea5-11eb-88c0-e7b96ea787da.png)
 
 ## Classes Used
 
