@@ -33,12 +33,10 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-1. Install Terlebih Dahulu JDK beserta extension-nya di vscode
-
-2. Buka Folder Src dan jalankan terminal seperti digambar <br>
+1. Buka Folder Src dan jalankan terminal seperti digambar <br>
      ![Code Untuk Running App](https://user-images.githubusercontent.com/61828857/100114874-76f1bb80-2ea4-11eb-96d2-f5d25b372a42.png)
      
-3. Berikut ini hasilnya <br>
+2. Berikut ini hasilnya <br>
      ![Awalan](https://user-images.githubusercontent.com/61828857/100114954-8bce4f00-2ea4-11eb-9ded-92221a9cbb91.png) 
      ![Proses](https://user-images.githubusercontent.com/61828857/100115078-ae606800-2ea4-11eb-9780-83b60d0cf123.png) 
      ![Hasil 1](https://user-images.githubusercontent.com/61828857/100115166-c637ec00-2ea4-11eb-9061-b056158f6c08.png) 
