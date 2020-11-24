@@ -18,13 +18,10 @@
 | 1.5 | Membuat Logika Giliran | TBD |
 | 1.6 | Membuat Logika Kontrol User | TBD |
 | 1.7 | Membuat Logika Menang Jika Sejajar | TBD |
-| 2.1 | Membuat Tampilan Menu | TBD |
-| 2.1 | Membuat Tampilan | TBD |
-| 2.2 | Membuat Tombol Pilihan | TBD |
-| 2.3 | Membuat dan Merapihkan UI | TBD |
+| 2.1 | Membuat Tombol Pilihan | TBD |
+| 2.2 | Membuat dan Merapihkan UI | TBD |
 | 3.1 | Memperbaiki Error | TBD |
-| 3.2 | Membuat Error Handling | TBD |
-| 3.3 | Finishing | TBD |
+| 3.2 | Finishing | TBD |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
