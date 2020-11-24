@@ -39,10 +39,10 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
      ![Code Untuk Running App](https://user-images.githubusercontent.com/61828857/100114874-76f1bb80-2ea4-11eb-96d2-f5d25b372a42.png)
      
 3. Berikut ini hasilnya <br>
-     ![Awalan](https://user-images.githubusercontent.com/61828857/100114954-8bce4f00-2ea4-11eb-9ded-92221a9cbb91.png) <br>
-     ![Proses](https://user-images.githubusercontent.com/61828857/100115078-ae606800-2ea4-11eb-9780-83b60d0cf123.png) <br>
-     ![Hasil 1](https://user-images.githubusercontent.com/61828857/100115166-c637ec00-2ea4-11eb-9061-b056158f6c08.png) <br>
-     ![Hasil 2](https://user-images.githubusercontent.com/61828857/100115247-dc45ac80-2ea4-11eb-8248-2ceb787cd459.png) <br>
+     ![Awalan](https://user-images.githubusercontent.com/61828857/100114954-8bce4f00-2ea4-11eb-9ded-92221a9cbb91.png) 
+     ![Proses](https://user-images.githubusercontent.com/61828857/100115078-ae606800-2ea4-11eb-9780-83b60d0cf123.png) 
+     ![Hasil 1](https://user-images.githubusercontent.com/61828857/100115166-c637ec00-2ea4-11eb-9061-b056158f6c08.png) 
+     ![Hasil 2](https://user-images.githubusercontent.com/61828857/100115247-dc45ac80-2ea4-11eb-8248-2ceb787cd459.png) 
      ![Hasil 3](https://user-images.githubusercontent.com/61828857/100115550-3cd4e980-2ea5-11eb-88c0-e7b96ea787da.png)
 
 ## Classes Used
