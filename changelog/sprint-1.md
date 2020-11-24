@@ -32,5 +32,5 @@ Kami belum menemukan urgensi dari adanya menu utama
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 2.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| 2.1 | Membuat Tombol Pilihan | David |
+| 2.2 | Membuat dan Merapihkan UI | David |
