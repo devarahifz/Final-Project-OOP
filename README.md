@@ -19,12 +19,13 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    -  Mencari tahu/eksplore TicTacToe di Java
 
 - **[Sprint 1](changelog/sprint-1.md) - (18/11/2020 - 24/11/2020)** 
-   - Short changes 1
-   - Short changes 2
+   - Membuat JFrame
+   - Membuat Panel
+   - Menyelesaikan mekanisme dasar dari game
 
 - **[Sprint 2](changelog/sprint-2.md) - (25/11/2020 - 01/12/2020)** 
-   - Short changes 1
-   - Short changes 2
+   - Merapikan UI
+   - Menambahkan beberapa tombol
    
 - **[Sprint 3](changelog/sprint-3.md) - (02/11/2020 - 08/11/2020)** 
    - Short changes 1
