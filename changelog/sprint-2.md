@@ -27,5 +27,5 @@ Belum bisa membuat UI leaderboard karena ada error yang belum diketahui solusiny
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Preparing the x | Jane Doe | 
-| 3.2 | Make the x | John Doe | 
+| 3.1 | Memperbaiki Error | Devara |
+| 3.2 | Finishing | All |
