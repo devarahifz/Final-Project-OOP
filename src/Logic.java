@@ -6,7 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-public class Logic extends JFrame implements ActionListener{
+public class Logic extends JFrame implements ActionListener{    
 
     //array 2 dimensi untuk membuat board 3x3
     static JButton buttonArray[][];
@@ -14,22 +14,29 @@ public class Logic extends JFrame implements ActionListener{
     //label untuk menentukan giliran
     static JLabel playerLabel;
 
+    //label untuk leaderboard
+    static JLabel p1score;
+    static JLabel p2score;
+    
     //menentukan kondisi awal
     static boolean player1 = true;
     static boolean player2 = false;
     static boolean gameOver = false;
     static boolean gameDraw = false;
+    public static int count = 0;
+    public static int xwincount = 0;
+    public static int owincount = 0;
+    public static String string;
     String player1Symbol = "X";
     String player2Symbol = "O";
-
+    
     int X = 10, Y = 10;
-
 
     //konstuktor buat controls
     public Logic() {
         //membuat panel board dan posisinya
         JPanel panel = new JPanel();
-        panel.setBounds(50, 40, 200, 400);
+        panel.setBounds(70, 40, 300, 400);
         panel.setLayout(null);
 
         //membuat array 3x3
@@ -37,35 +44,70 @@ public class Logic extends JFrame implements ActionListener{
 
         //set playerlabel dan lokasinya
         playerLabel = new JLabel("Player 1");
-        playerLabel.setBounds(120, 10, 100, 30);
+        playerLabel.setBounds(140, 5, 100, 30);
+        
+        //Membuat label untuk mengetahui score dan lokasinya
+        p1score = new JLabel("X = 0");
+        p2score = new JLabel("O = 0");
+        p1score.setBounds(50, 1, 120, 10);
+        p2score.setBounds(120, 1, 120, 10);
 
         // membuat loop untuk 9 button 
         // set posisinya
         // menambahkan actionlistener buat klik
-        // nambahin buttonl ke panel
+        // nambahin button ke panel
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                     buttonArray[i][j] = new JButton();
                     buttonArray[i][j].addActionListener(this);
                     buttonArray[i][j].setBounds(X, Y, 50, 50);
                     X += 60;
-                    // kalo udah ada 3 button button selanjutnya bakal ada di bawah
+                    // // kalo udah ada 3 button button selanjutnya bakal ada di bawah
                     if (j == 3 - 1) {
                             Y += 60;
                             X = 10;
                     }
                     panel.add(buttonArray[i][j]);
             }
+        }
+            
+            JButton reset = new JButton(); //Membuat tombol untuk reset
+            reset.setText("Reset");
+            reset.setBounds(0, 190, 70, 30);
+            reset.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){//Ketika tombol di klik akan menjalankan fungsi dibawah
+                JFrame frame = new JFrame();
+                frame.dispose();//Karena kami membuat frame baru tiap reset,maka frame sebelumnya dihapus terlebih dahulu
+                Logic.resetGame();//menjalankan fungsi yang memiliki instansiasi frame baru
             }
+            });
+
+            JButton close = new JButton();
+            close.setText("Exit");
+            close.setBounds(120, 190, 70, 30);
+            close.addActionListener(new ActionListener(){
+                public void actionPerformed(ActionEvent e){//Ketika tombol di klik akan menjalankan fungsi dibawah
+                    System.exit(0); // Keluar dari program
+                }
+            });
+            //menambahkan tombol close dan reset ke panel
+            panel.add(reset);
+            panel.add(close);
+            
+            //menambahkan label score ke panel
+            panel.add(p1score);
+            panel.add(p2score);
+            updateScore(p1score,p2score);
+            
             // Set layout null
             // add player label ke frame
             // Add panel ke frame
             setLayout(null);
             add(playerLabel);
             add(panel);
+            
     }
-    
-    @Override
+
     public void actionPerformed(ActionEvent e){
         //kalo game blm selesai
         if(gameOver == false) {
@@ -78,6 +120,8 @@ public class Logic extends JFrame implements ActionListener{
                 player2 = true;
                 setSymbol((JButton) e.getSource(), player1Symbol, "Player 2");
                 checkWin("Player 1");
+                winCount(string);
+                updateScore(p1score,p2score);
             }
             // giliran player 2
             // player 2 diset false, player 1 diset true(buat next turn)
@@ -88,9 +132,26 @@ public class Logic extends JFrame implements ActionListener{
                 player1 = true;
                 setSymbol((JButton) e.getSource(), player2Symbol, "Player 1");
                 checkWin("Player 2");
+                winCount(string);
+                updateScore(p1score,p2score);
             }
 
         }
+    }
+
+    //menghitung jumlah menang sesuai X atau O
+    public static void winCount(String string){
+        if(string == "X"){   
+            xwincount++;
+           }else if(string == "O"){
+            owincount++;
+        }
+    }
+
+    public static void updateScore(JLabel score,JLabel score2){
+        //Fungsi untuk mengubah text score
+        score.setText("X = "+xwincount);
+        score2.setText("O = "+owincount);
     }
     public static void setSymbol(JButton button, String symbol, String labelText) {
         // set symbol dalem button
@@ -116,37 +177,43 @@ public class Logic extends JFrame implements ActionListener{
         // Set gameOver jd true kalo memenuhi exception dibawah
         // kalo row 1 sama
         if (valueAt00 == valueAt01 && valueAt01 == valueAt02 && valueAt00 != "") {
-            gameOver = true;
+                gameOver = true;
+                winCount(string);
         }
         // kalo row 2 sama
         else if (valueAt10 == valueAt11 && valueAt11 == valueAt12 && valueAt10 != "") {
                 gameOver = true;
+                winCount(string);
         }
         // kalo row 3 sama
         else if (valueAt20 == valueAt21 && valueAt21 == valueAt22 && valueAt20 != "") {
                 gameOver = true;
+                winCount(string);
         }
         // kalo column 1 sama
         else if (valueAt00 == valueAt10 && valueAt10 == valueAt20 && valueAt00 != "") {
                 gameOver = true;
+                winCount(string);
         }
         // kalo column 2 sama
         else if (valueAt01 == valueAt11 && valueAt11 == valueAt21 && valueAt01 != "") {
                 gameOver = true;
+                winCount(string);
         }
         // kalo column 3 sama
         else if (valueAt02 == valueAt12 && valueAt12 == valueAt22 && valueAt02 != "") {
                 gameOver = true;
+                winCount(string);
         }
         // kalo diagonal sama
         else if (valueAt00 == valueAt11 && valueAt11 == valueAt22 && valueAt00 != "") {
                 gameOver = true;
-
+                winCount(string);
         }
         // kalo diagonal sama
         else if (valueAt02 == valueAt11 && valueAt11 == valueAt20 && valueAt02 != "") {
                 gameOver = true;
-
+                winCount(string);
         } 
         // semua button di klik dan gaada yg memenuhi syarat diatas
         // Set gameOver gameDraw jadi true
