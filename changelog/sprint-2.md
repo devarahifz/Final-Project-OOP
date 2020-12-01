@@ -8,10 +8,10 @@
 | 140810190055  | Anki Prawira Hidayat   |
 | 140810190067  | David Aditya Susanto|
 
-## Sprint Overview
+## Sprint Overview 
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 2             | 2             |
 
 ## Sprint 2 Backlog
 
@@ -22,7 +22,7 @@
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Belum bisa membuat UI leaderboard karena ada error yang belum diketahui solusinya
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
