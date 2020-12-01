@@ -17,8 +17,8 @@
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 2.1 | Preparing the x | Jane Doe | DONE |
-| 2.2 | Make the x | John Doe | FAILED |
+| 2.1 | Membuat tombol pilihan | David Aditya Susanto | DONE |
+| 2.2 | Membuat dan merapikan UI | David Aditya Susanto | DONE |
 
 ## Retrospective 
 
