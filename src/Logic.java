@@ -23,10 +23,8 @@ public class Logic extends JFrame implements ActionListener{
     static boolean player2 = false;
     static boolean gameOver = false;
     static boolean gameDraw = false;
-    public static int count = 0;
-    public static int xwincount = 0;
-    public static int owincount = 0;
-    public static String string;
+    private static int xwincount = 0;
+    private static int owincount = 0;
     String player1Symbol = "X";
     String player2Symbol = "O";
     
@@ -75,7 +73,7 @@ public class Logic extends JFrame implements ActionListener{
             reset.setText("Reset");
             reset.setBounds(0, 190, 70, 30);
             reset.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
+                public void actionPerformed(ActionEvent e){
                 xwincount = 0;
                 owincount = 0;
                 p1score.setText("X = 0");
@@ -141,7 +139,7 @@ public class Logic extends JFrame implements ActionListener{
     }
 
     //menghitung jumlah menang sesuai X atau O
-//     public static void winCount(String string){
+//     private static void winCount(String string){
 //         if(string == "X"){   
 //             xwincount++;
 //            }
@@ -150,12 +148,12 @@ public class Logic extends JFrame implements ActionListener{
 //         }
 //     }
 
-    public static void updateScore(JLabel score,JLabel score2){
+    private static void updateScore(JLabel score,JLabel score2){
         //Fungsi untuk mengubah text score
         score.setText("X = "+xwincount);
         score2.setText("O = "+owincount);
     }
-    public static void setSymbol(JButton button, String symbol, String labelText) {
+    private static void setSymbol(JButton button, String symbol, String labelText) {
         // set symbol dalem button
         // disable button
         // set player label
@@ -164,7 +162,7 @@ public class Logic extends JFrame implements ActionListener{
         playerLabel.setText(labelText);
     }
 
-    public static void checkWin(String currentPlayer) {
+    private static void checkWin(String currentPlayer) {
          // Get text di semua button
          String valueAt00 = buttonArray[0][0].getText();
          String valueAt01 = buttonArray[0][1].getText();
@@ -287,7 +285,7 @@ public class Logic extends JFrame implements ActionListener{
             }
         }
     }
-    public static void resetGame() {
+    private static void resetGame() {
         // Re-set gameOver dan gameDraw jd false
         gameOver = false;
         gameDraw = false;
