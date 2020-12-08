@@ -76,6 +76,8 @@ public class Logic extends JFrame implements ActionListener{
             reset.setBounds(0, 190, 70, 30);
             reset.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
+                xwincount = 0;
+                owincount = 0;
                 p1score.setText("X = 0");
                 p2score.setText("O = 0");
                 //fungsi reset
@@ -99,7 +101,6 @@ public class Logic extends JFrame implements ActionListener{
             //menambahkan label score ke panel
             panel.add(p1score);
             panel.add(p2score);
-            updateScore(p1score,p2score);
             
             // Set layout null
             // add player label ke frame
