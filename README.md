@@ -51,7 +51,6 @@ java TicTacToe
    - Objek yang menyimpan logika memulai dan mengakhiri game TicTacToe.
    - Dalam Logic juga terdapat objek yang mengekstensi ``JPanel``.
    - Dalam Logic juga terdapat objek yang mengekstensi ``ActionListener``.
-   -
 2. **TicTacToe (Main Program)** - `TicTacToe.java`
    - Main Program yang dimana TicTacToe berjalan berdasarkan UI.
    - Dalam main program juga terdapat objek yang menjadi frame TicTacToe. 
@@ -60,4 +59,10 @@ java TicTacToe
 
 ## Notable Assumption and Design App Details
 
-TO;DO
+- Buat frame dan panel 3x3.
+- Buat giliran X atau O.
+- Mengubah konten panel menjadi huruf dengan mencoba membentuk garis horizontal atau vertikal atau diagonal.
+- Jika kotak terisi penuh dan tidak ada pemain yang bisa membentuk garis, permainan akan berakhir dan akan menampilkan seri.
+- Setelah kondisi membentuk garis, tampilan akan berubah dan menampilkan pemain yang membentuk garis tersebut.
+- Setelah permainan berakhir, tombol "Main lagi" akan muncul untuk memulai permainan lagi.
+- Indikator Leaderboard akan bertambah pada pemain yang telah memenangkan permainan sebelumnya.
