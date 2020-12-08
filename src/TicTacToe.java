@@ -1,5 +1,4 @@
 import javax.swing.JFrame;
-import javax.swing.JButton;
 public class TicTacToe{
         public static void main(String[] args) {
                 // create frame

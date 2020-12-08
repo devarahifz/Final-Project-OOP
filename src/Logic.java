@@ -6,7 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-public class Logic extends JFrame implements ActionListener{    
+public class Logic extends JFrame implements ActionListener{
 
     //array 2 dimensi untuk membuat board 3x3
     static JButton buttonArray[][];
@@ -75,10 +75,9 @@ public class Logic extends JFrame implements ActionListener{
             reset.setText("Reset");
             reset.setBounds(0, 190, 70, 30);
             reset.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){//Ketika tombol di klik akan menjalankan fungsi dibawah
-                JFrame frame = new JFrame();
-                frame.dispose();//Karena kami membuat frame baru tiap reset,maka frame sebelumnya dihapus terlebih dahulu
-                Logic.resetGame();//menjalankan fungsi yang memiliki instansiasi frame baru
+            public void actionPerformed(ActionEvent e){
+                //fungsi reset
+                Logic.resetGame();
             }
             });
 
@@ -86,8 +85,9 @@ public class Logic extends JFrame implements ActionListener{
             close.setText("Exit");
             close.setBounds(120, 190, 70, 30);
             close.addActionListener(new ActionListener(){
-                public void actionPerformed(ActionEvent e){//Ketika tombol di klik akan menjalankan fungsi dibawah
-                    System.exit(0); // Keluar dari program
+                public void actionPerformed(ActionEvent e){
+                    // Keluar dari program    
+                    System.exit(0); 
                 }
             });
             //menambahkan tombol close dan reset ke panel
@@ -120,7 +120,6 @@ public class Logic extends JFrame implements ActionListener{
                 player2 = true;
                 setSymbol((JButton) e.getSource(), player1Symbol, "Player 2");
                 checkWin("Player 1");
-                winCount(string);
                 updateScore(p1score,p2score);
             }
             // giliran player 2
@@ -132,7 +131,6 @@ public class Logic extends JFrame implements ActionListener{
                 player1 = true;
                 setSymbol((JButton) e.getSource(), player2Symbol, "Player 1");
                 checkWin("Player 2");
-                winCount(string);
                 updateScore(p1score,p2score);
             }
 
@@ -140,13 +138,14 @@ public class Logic extends JFrame implements ActionListener{
     }
 
     //menghitung jumlah menang sesuai X atau O
-    public static void winCount(String string){
-        if(string == "X"){   
-            xwincount++;
-           }else if(string == "O"){
-            owincount++;
-        }
-    }
+//     public static void winCount(String string){
+//         if(string == "X"){   
+//             xwincount++;
+//            }
+//         else if(string == "O"){
+//             owincount++;
+//         }
+//     }
 
     public static void updateScore(JLabel score,JLabel score2){
         //Fungsi untuk mengubah text score
@@ -178,42 +177,82 @@ public class Logic extends JFrame implements ActionListener{
         // kalo row 1 sama
         if (valueAt00 == valueAt01 && valueAt01 == valueAt02 && valueAt00 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt00 == valueAt01 && valueAt01 == valueAt02 && valueAt00 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt00 == valueAt01 && valueAt01 == valueAt02 && valueAt00 == "O"){
+                        owincount++;
+                }
         }
         // kalo row 2 sama
         else if (valueAt10 == valueAt11 && valueAt11 == valueAt12 && valueAt10 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt10 == valueAt11 && valueAt11 == valueAt12 && valueAt10 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt10 == valueAt11 && valueAt11 == valueAt12 && valueAt10 == "O"){
+                        owincount++;
+                }
         }
         // kalo row 3 sama
         else if (valueAt20 == valueAt21 && valueAt21 == valueAt22 && valueAt20 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt20 == valueAt21 && valueAt21 == valueAt22 && valueAt20 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt20 == valueAt21 && valueAt21 == valueAt22 && valueAt20 == "O"){
+                        owincount++;
+                }
         }
         // kalo column 1 sama
         else if (valueAt00 == valueAt10 && valueAt10 == valueAt20 && valueAt00 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt00 == valueAt10 && valueAt10 == valueAt20 && valueAt00 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt00 == valueAt10 && valueAt10 == valueAt20 && valueAt00 == "O"){
+                        owincount++;
+                }
         }
         // kalo column 2 sama
         else if (valueAt01 == valueAt11 && valueAt11 == valueAt21 && valueAt01 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt01 == valueAt11 && valueAt11 == valueAt21 && valueAt01 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt01 == valueAt11 && valueAt11 == valueAt21 && valueAt01 == "O"){
+                        owincount++;
+                }
         }
         // kalo column 3 sama
         else if (valueAt02 == valueAt12 && valueAt12 == valueAt22 && valueAt02 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt02 == valueAt12 && valueAt12 == valueAt22 && valueAt02 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt02 == valueAt12 && valueAt12 == valueAt22 && valueAt02 == "O"){
+                        owincount++;
+                }
         }
         // kalo diagonal sama
         else if (valueAt00 == valueAt11 && valueAt11 == valueAt22 && valueAt00 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt00 == valueAt11 && valueAt11 == valueAt22 && valueAt00 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt00 == valueAt11 && valueAt11 == valueAt22 && valueAt00 == "O"){
+                        owincount++;
+                }
         }
         // kalo diagonal sama
         else if (valueAt02 == valueAt11 && valueAt11 == valueAt20 && valueAt02 != "") {
                 gameOver = true;
-                winCount(string);
+                if(valueAt02 == valueAt11 && valueAt11 == valueAt20 && valueAt02 == "X"){   
+                        xwincount++;
+                }
+                else if(valueAt02 == valueAt11 && valueAt11 == valueAt20 && valueAt02 == "O"){
+                        owincount++;
+                }
         } 
         // semua button di klik dan gaada yg memenuhi syarat diatas
         // Set gameOver gameDraw jadi true
