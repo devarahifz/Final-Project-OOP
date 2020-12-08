@@ -28,8 +28,10 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Menambahkan beberapa tombol
    
 - **[Sprint 3](changelog/sprint-3.md) - (02/11/2020 - 08/11/2020)** 
-   - Short changes 1
-   - Short changes 2
+   - Membetulkan error yang terdapat di leaderboard
+   - Membetulkan tombol reset agar bisa mereset leaderboard
+   - Mengubah beberapa access modifier
+   - Merapikan dan menghapus kode yang tidak dipakai
 
 ## Running The App
 

@@ -92,6 +92,7 @@ public class Logic extends JFrame implements ActionListener{
                     System.exit(0); 
                 }
             });
+            
             //menambahkan tombol close dan reset ke panel
             panel.add(reset);
             panel.add(close);

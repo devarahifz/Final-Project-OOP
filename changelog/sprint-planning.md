@@ -20,8 +20,8 @@
 | 1.7 | Membuat Logika Menang Jika Sejajar | Devara |
 | 2.1 | Membuat Tombol Pilihan | David |
 | 2.2 | Membuat dan Merapihkan UI | David |
-| 3.1 | Memperbaiki Error | TBD |
-| 3.2 | Finishing | TBD |
+| 3.1 | Memperbaiki Error | Devara |
+| 3.2 | Finishing | All |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
@@ -35,5 +35,4 @@
 | 1.7 | Membuat Logika Menang Jika Sejajar | Devara |
 
 ## Retrospective 
-
-- TBD
+Ada beberapa poin dari sprint planning yang dihapus karena dianggap pengulangan kata dan dirasa sudah direpresentasikan dalam 1 poin

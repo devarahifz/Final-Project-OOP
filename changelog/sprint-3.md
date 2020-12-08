@@ -4,23 +4,22 @@
 ## Team 3T
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810190019  | Devara Hifzhurrahman    |
-| 140810190055  | Anki Prawira Hidayat   |
+| 140810190019  | Devara Hifzhurrahman |
+| 140810190055  | Anki Prawira Hidayat |
 | 140810190067  | David Aditya Susanto |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 2             | 2            |
 
 ## Sprint 3 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 3.1 | Preparing the x | Jane Doe | DONE |
-| 3.2 | Make the x | John Doe | FAILED |
+| 3.1 | Memperbaiki Error | Devara | DONE |
+| 3.2 |Finishing | All  | Done |
 
 ## Retrospective 
-
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+-
 
