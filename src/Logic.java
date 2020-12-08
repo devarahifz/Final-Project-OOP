@@ -76,6 +76,8 @@ public class Logic extends JFrame implements ActionListener{
             reset.setBounds(0, 190, 70, 30);
             reset.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
+                p1score.setText("X = 0");
+                p2score.setText("O = 0");
                 //fungsi reset
                 Logic.resetGame();
             }
