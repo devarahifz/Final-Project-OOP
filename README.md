@@ -34,6 +34,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Running The App
 
 1. Buka Folder src lalu buka command
+     
 2. Compile file TicTacToe.java
 ```
 javac TicTacToe.java
@@ -46,9 +47,16 @@ java TicTacToe
 
 ## Classes Used
 
-TO;DO
+1. **Logic** - `Logic.java`
+   - Objek yang menyimpan logika memulai dan mengakhiri game TicTacToe.
+   - Dalam Logic juga terdapat objek yang mengekstensi ``JPanel``.
+   - Dalam Logic juga terdapat objek yang mengekstensi ``ActionListener``.
+   -
+2. **TicTacToe (Main Program)** - `TicTacToe.java`
+   - Main Program yang dimana TicTacToe berjalan berdasarkan UI.
+   - Dalam main program juga terdapat objek yang menjadi frame TicTacToe. 
 
-UML image here
+![UML](/images/UML.png)
 
 ## Notable Assumption and Design App Details
 
