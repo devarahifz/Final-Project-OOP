@@ -33,8 +33,8 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-1. Buka Folder Src dan jalankan terminal seperti digambar <br>
-     ![Code Untuk Running App](https://user-images.githubusercontent.com/61828857/100114874-76f1bb80-2ea4-11eb-96d2-f5d25b372a42.png)
+1. Buka Folder Src dan jalankan code di terminal seperti berikut:<br>
+     javac TicTacToe.java && java TicTacToe
      
 2. Berikut ini hasilnya <br>
      ![Awalan](https://user-images.githubusercontent.com/61828857/100114954-8bce4f00-2ea4-11eb-9ded-92221a9cbb91.png) 
