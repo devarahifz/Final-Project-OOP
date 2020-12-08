@@ -34,7 +34,6 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 ## Running The App
 
 1. Buka Folder src lalu buka command
-     
 2. Compile file TicTacToe.java
 ```
 javac TicTacToe.java
